@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project name="AMF"><Package name="Tracking">
+
+<Key ID="STR_AMF_TRACKING_MODULE_ENABLE">
+<English>Enable Tracking</English>
+<German>Aktiviere Tracking</German>
+</Key>
+
+</Package>
+</Project>
