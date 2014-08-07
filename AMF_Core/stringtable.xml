@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project name="AMF"><Package name="Core">
 
-<Key ID="STR_AMF_CORE_REQUIREMOD">
+<Key ID="STR_AMF_CORE_MODULE_REQUIREMOD">
 <English>Require AMF</English>
 <German>Benoetigt AMF</German>
 </Key>

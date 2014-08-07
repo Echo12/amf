@@ -192,8 +192,8 @@ class CfgVehicles {
     scope = 1;
 
   };
-  class AMF_Module_RequireMod: AMF_Module {
-    displayName = "$STR_AMF_CORE_REQUIREMOD";
+  class AMF_Core_Module_RequireMod: AMF_Module {
+    displayName = "$STR_AMF_CORE_MODULE_REQUIREMOD";
     author = "AMF Team";
     function = "";
     scope = 2;
