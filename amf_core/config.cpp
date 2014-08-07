@@ -198,5 +198,6 @@ class CfgVehicles {
     function = "";
     scope = 2;
     isGlobal = 1;
+	icon = "\x\amf\addons\core\UI\AMF.paa";
   };
 };
