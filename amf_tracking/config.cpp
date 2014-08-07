@@ -17,6 +17,7 @@ class CfgVehicles {
   class AMF_Tracking_Module_Enable: AMF_Module {
     displayName = "$STR_AMF_TRACKING_MODULE_ENABLE";
     author = "AMF Team";
+	icon = "\x\amf\addons\tracking\UI\BFTracking_ca.paa";
     scope = 2;
     isGlobal = 0; //Execute on server
     class Eventhandlers {
