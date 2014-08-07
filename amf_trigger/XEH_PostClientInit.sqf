@@ -1,5 +1,5 @@
 #include "script_component.hpp"
-LOG("Client Pre Init");
+TRACE_1("Process","PostClientInit");
 
 
 

@@ -1,3 +1,4 @@
 #include "script_component.hpp"
-LOG("Server Post Init");
+TRACE_1("Process","PostServerInit");
+
 
