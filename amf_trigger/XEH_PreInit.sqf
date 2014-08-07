@@ -2,13 +2,13 @@
 
 TRACE_1("Process","PreInit");
 
-//Nonai 
+//Nonai
 if(isMultiplayer) then {
     LOG("is Multiplayer");
  	FUNC(NonAi) = {
 	  	{
 	        if(_x in playableunits) exitWith{true};
-	        
+
 	    } foreach _this;
     };
 }else{
@@ -16,18 +16,18 @@ if(isMultiplayer) then {
     FUNC(NonAi) = {
 	  	{
 	        if(_x in switchableunits) exitWith{true};
-	        
+
 	    } foreach _this;
     };
 };
 
-//aliveNonai 
+//aliveNonai
 if(isMultiplayer) then {
     LOG("is Multiplayer");
  	FUNC(AliveNonAi) = {
 	  	{
 	        if((_x in playableunits) && alive _x) exitWith{true};
-	        
+
 	    } foreach _this;
     };
 }else{
@@ -35,7 +35,7 @@ if(isMultiplayer) then {
     FUNC(AliveNonAi) = {
 	  	{
 	        if((_x in switchableunits) && alive _x) exitWith{true};
-	        
+
 	    } foreach _this;
     };
 };
@@ -46,7 +46,7 @@ if(isMultiplayer) then {
  	FUNC(NonAiOnGround) = {
 	  	{
 	        if((_x in playableunits) && (((getPos _x) select 2) < 3)) exitWith{true};
-	        
+
 	    } foreach _this;
     };
 }else{
@@ -54,7 +54,7 @@ if(isMultiplayer) then {
     FUNC(NonAiOnGround) = {
 	  	{
 	        if((_x in switchableunits) && (((getPos _x) select 2) < 3)) exitWith{true};
-	        
+
 	    } foreach _this;
     };
 };
@@ -65,7 +65,7 @@ if(isMultiplayer) then {
  	FUNC(AliveNonAiOnGround) = {
 	  	{
 	        if((_x in playableunits) && alive _x && (((getPos _x) select 2) < 3)) exitWith{true};
-	        
+
 	    } foreach _this;
     };
 }else{
@@ -73,7 +73,7 @@ if(isMultiplayer) then {
     FUNC(AliveNonAiOnGround) = {
 	  	{
 	        if((_x in switchableunits) && alive _x && (((getPos _x) select 2) < 3)) exitWith{true};
-	        
+
 	    } foreach _this;
     };
 };
