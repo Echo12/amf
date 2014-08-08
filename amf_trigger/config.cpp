@@ -25,9 +25,3 @@ class Extended_PostInit_EventHandlers {
         serverInit = "e12retnull = [] spawn compile preprocessFileLineNumbers 'x\amf\addons\trigger\XEH_PostServerInit.sqf'";
     };  
 };
-
-
-
-
-
-
